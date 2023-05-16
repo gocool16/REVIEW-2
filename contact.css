@@ -1,0 +1,128 @@
+/* Main styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+    justify-content: space-between;
+	padding: 20px;
+	display: flex;
+	padding-top: -10px;
+	align-items: center;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 40px 20px;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.contact-section h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.contact-section a {
+    color: #2f4f4f;
+    font-weight: bold;
+}
+
+.contact-section form {
+    flex-basis: 45%;
+}
+
+.contact-section label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-section input,
+.contact-section textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #f9bc60;
+}
+
+.contact-section textarea {
+    height: 150px;
+}
+
+.contact-section button[type="submit"] {
+    background-color: #f9bc60;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section button[type="submit"]:hover {
+    background-color: #e79b3d;
+}
+    
